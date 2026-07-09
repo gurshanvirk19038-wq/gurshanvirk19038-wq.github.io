@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Sample Movie",
+    "poster": "https://via.placeholder.com/300x450?text=Sample+Movie",
+    "video": "movies/sample.mp4",
+    "category": "Action"
+  }
+]

@@ -1,8 +1,9 @@
 [
   {
+    "id": 1,
     "title": "Sample Movie",
     "poster": "https://via.placeholder.com/300x450?text=Sample+Movie",
-    "video": "movies/sample.mp4",
+    "video": "https://drive.google.com/file/d/1EJbgFM9pAadsNmyFMMLFvhenxOJttbsU/preview",
     "category": "Action"
   }
 ]

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Movie Player - Gurshan Virk Movies</title>
+<title>Player - Gurshan Virk Movies</title>
 
 <style>
 body{
@@ -13,54 +13,44 @@ color:white;
 font-family:Arial,sans-serif;
 text-align:center;
 }
-
 header{
 background:#e50914;
 padding:15px;
 font-size:28px;
 font-weight:bold;
 }
-
-video{
+iframe{
 width:95%;
-max-width:900px;
-margin:30px auto;
-display:block;
+height:80vh;
+border:none;
+margin-top:20px;
 border-radius:10px;
-background:black;
 }
-
-button{
-padding:12px 25px;
-font-size:18px;
+a{
+display:inline-block;
+margin:20px;
+padding:12px 20px;
 background:#e50914;
 color:white;
-border:none;
-border-radius:8px;
-cursor:pointer;
-}
-
-a{
 text-decoration:none;
+border-radius:8px;
 }
 </style>
 
 </head>
-
 <body>
 
 <header>🎬 Gurshan Virk Movies</header>
 
-<h2>Movie Player</h2>
+<iframe
+src="https://drive.google.com/file/d/1EJbgFM9pAadsNmyFMMLFvhenxOJttbsU/preview"
+allow="autoplay"
+allowfullscreen>
+</iframe>
 
-<video controls>
-<source src="movies/sample.mp4" type="video/mp4">
-Your browser does not support video playback.
-</video>
+<br>
 
-<a href="index.html">
-<button>⬅ Back to Home</button>
-</a>
+<a href="index.html">⬅ Back to Home</a>
 
 </body>
 </html>
